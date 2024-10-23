@@ -22,12 +22,6 @@
 # include <limits.h>
 # include <stdarg.h>
 
-typedef struct s_list
-{
-	void			*content;
-	struct s_list	*next;
-}	t_list;
-
 size_t	ft_strlen(const char *s);
 int		ft_putchar_fd(char c, int fd);
 int		ft_putstr_fd(char *s, int fd);
